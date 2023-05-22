@@ -7,7 +7,7 @@ services:
     network_mode: bridge
     environment:
       - TZ=America/New_York
-      - SERVERNAME=Shadow-Wizard-Money-Gang
+      - SERVERNAME=Shadow Wizard Money Gang
     volumes:
       - './server:/mnt/vrising/server:rw'
       - './data:/mnt/vrising/persistentdata:rw'
